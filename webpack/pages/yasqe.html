@@ -130,7 +130,9 @@
 					document.getElementById('noExternalServicesToggle').style.display = 'block'
 				}
 
-        window.yasqe = new Yasqe(document.getElementById("yasqe"));
+        window.yasqe = new Yasqe(document.getElementById("yasqe"), {
+          mustacheExtension: true
+        });
         window.yasqe.on("queryResponse", function() {
           console.log("response event", arguments);
         });

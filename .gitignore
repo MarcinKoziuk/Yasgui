@@ -1,6 +1,7 @@
 tsconfig-webpack.tsbuildinfo
 node_modules
 build
+!build/*.tgz
 lerna-debug.log
 
 # Based on https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored

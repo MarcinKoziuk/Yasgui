@@ -13,13 +13,13 @@ Below are instructions on how to include Yasgui in your project. If you only wan
 ### npm
 
 ```sh
-npm i @triply/yasgui
+npm i @marcinbk/yasgui
 ```
 
 ### Yarn
 
 ```sh
-yarn add @triply/yasgui
+yarn add @marcinbk/yasgui
 ```
 
 ## Local development

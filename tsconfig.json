@@ -15,10 +15,10 @@
     "rootDir": ".",
     "baseUrl": ".",
     "paths": {
-      "@triply/yasr": [ "./packages/yasr/src" ],
-      "@triply/yasqe": [ "./packages/yasqe/src" ],
+      "@marcinbk/yasr": [ "./packages/yasr/src" ],
+      "@marcinbk/yasqe": [ "./packages/yasqe/src" ],
       "@triply/yasgui-utils": [ "./packages/utils/src" ],
-      "@triply/yasgui": [ "./packages/yasgui/src" ]
+      "@marcinbk/yasgui": [ "./packages/yasgui/src" ]
     },
     "types": ["datatables.net"]
   },

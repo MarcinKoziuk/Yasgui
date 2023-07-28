@@ -7,11 +7,11 @@ import { default as Tab, PersistedJson as PersistedTabJson } from "./Tab";
 import { EndpointSelectConfig, CatalogueItem } from "./endpointSelect";
 import * as shareLink from "./linkUtils";
 import TabElements from "./TabElements";
-import { default as Yasqe, PartialConfig as YasqeConfig, RequestConfig } from "@triply/yasqe";
-import { default as Yasr, Config as YasrConfig } from "@triply/yasr";
+import { default as Yasqe, PartialConfig as YasqeConfig, RequestConfig } from "@marcinbk/yasqe";
+import { default as Yasr, Config as YasrConfig } from "@marcinbk/yasr";
 import { addClass, removeClass } from "@triply/yasgui-utils";
 require("./index.scss");
-require("@triply/yasr/src/scss/global.scss");
+require("@marcinbk/yasr/src/scss/global.scss");
 if (window) {
   //We're storing yasqe and yasr as a member of Yasgui, but _also_ in the window
   //That way, we dont have to tweak e.g. pro plugins to register themselves to both

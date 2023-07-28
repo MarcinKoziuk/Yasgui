@@ -1,5 +1,5 @@
 {
-  "name": "@triply/yasqe",
+  "name": "@marcinbk/yasqe",
   "description": "Yet Another SPARQL Query Editor",
   "version": "4.2.28",
   "main": "build/yasqe.min.js",
@@ -34,7 +34,7 @@
     "superagent": "5.3.1"
   },
   "peerDependencies": {
-    "@triply/yasgui": "4.x"
+    "@marcinbk/yasgui": "4.x"
   },
   "devDependencies": {
     "@types/codemirror": "0.0.100",
